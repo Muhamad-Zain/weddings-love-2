@@ -141,10 +141,10 @@ const login = async (email, password) => {
 
 
     return(
-        <section className="max-w-[400px] bg-yellow-600 mb-20 m-auto">
+        <section className="max-w-[400px] bg-yellow-600 pb-20 m-auto">
             {verify ? (
               <div>
-              <h3 className="text-center text-xl w-3/4 m-auto py-5 playfair">Add Data to template wedings exlusive</h3>
+              <h3 className="text-center text-xl w-3/4 m-auto py-5 playfair">Add Data to template weddings love 2</h3>
               <input type="text" placeholder="Id Undangan" value={idUndangan} className="text-black outline-none p-2 ml-2 rounded-md" onChange={(e) => setIdUndangan(e.target.value)} />
 
               <form 
